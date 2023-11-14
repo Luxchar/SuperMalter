@@ -5,3 +5,5 @@ seaborn
 matplotlib
 plotly
 requests
+undetected-chromedriver
+proxy
