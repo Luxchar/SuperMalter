@@ -5,5 +5,7 @@ seaborn
 matplotlib
 plotly
 requests
-undetected-chromedriver
-proxy
+
+selenium-wire
+webdriver-manager
+aiohttp
