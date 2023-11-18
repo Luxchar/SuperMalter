@@ -5,7 +5,4 @@ seaborn
 matplotlib
 plotly
 requests
-
-selenium-wire
-webdriver-manager
-aiohttp
+asyncio
