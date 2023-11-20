@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="c978af53-7bc0-4fff-a6f5-f06659fb5929" data-root-id="p1070" style="display: contents;"></div>
+  
+    <script type="application/json" id="p1073">
+      {"52632ac7-20e5-45d0-bef7-309cbb7415b4":{"version":"3.3.1","title":"Bokeh Application","roots":[{"type":"object","name":"Column","id":"p1070","attributes":{"children":[{"type":"object","name":"Figure","id":"p1001","attributes":{"sizing_mode":"scale_width","x_range":{"type":"object","name":"DataRange1d","id":"p1003"},"y_range":{"type":"object","name":"FactorRange","id":"p1011","attributes":{"factors":["Assault Rifle","Submachine Gun","Sniper Rifle","Shotgun","LMG"]}},"x_scale":{"type":"object","name":"LinearScale","id":"p1012"},"y_scale":{"type":"object","name":"CategoricalScale","id":"p1013"},"title":{"type":"object","name":"Title","id":"p1004","attributes":{"text":"Weapon Usage in Call of Duty"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1033","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1024","attributes":{"selected":{"type":"object","name":"Selection","id":"p1025","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1026"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAEAAAACAAAAAwAAAAQAAAA="},"shape":[5],"dtype":"int32","order":"little"}],["Weapon",{"type":"ndarray","array":["Assault Rifle","Submachine Gun","Sniper Rifle","Shotgun","LMG"],"shape":[5],"dtype":"object","order":"little"}],["Frequency",{"type":"ndarray","array":{"type":"bytes","data":"rA0AAPAKAADQBwAA3AUAALAEAAA="},"shape":[5],"dtype":"int32","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1034","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1035"}}},"glyph":{"type":"object","name":"HBar","id":"p1030","attributes":{"y":{"type":"field","field":"Weapon"},"height":{"type":"value","value":0.5},"right":{"type":"field","field":"Frequency"},"line_color":{"type":"value","value":"white"},"fill_color":{"type":"value","value":"orange"}}},"nonselection_glyph":{"type":"object","name":"HBar","id":"p1031","attributes":{"y":{"type":"field","field":"Weapon"},"height":{"type":"value","value":0.5},"right":{"type":"field","field":"Frequency"},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"orange"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"HBar","id":"p1032","attributes":{"y":{"type":"field","field":"Weapon"},"height":{"type":"value","value":0.5},"right":{"type":"field","field":"Frequency"},"line_color":{"type":"value","value":"white"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"orange"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1010"},"toolbar_location":null,"left":[{"type":"object","name":"CategoricalAxis","id":"p1019","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1020"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1021"},"axis_label":"Weapon","major_label_policy":{"type":"object","name":"AllLabels","id":"p1022"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1014","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1015","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1016"},"axis_label":"Frequency","major_label_policy":{"type":"object","name":"AllLabels","id":"p1017"}}}],"center":[{"type":"object","name":"Grid","id":"p1018","attributes":{"axis":{"id":"p1014"}}},{"type":"object","name":"Grid","id":"p1023","attributes":{"dimension":1,"axis":{"id":"p1019"}}}]}},{"type":"object","name":"Figure","id":"p1039","attributes":{"width":100,"height":100,"x_range":{"type":"object","name":"DataRange1d","id":"p1041"},"y_range":{"type":"object","name":"FactorRange","id":"p1048","attributes":{"factors":["Assault Rifle","Submachine Gun","Sniper Rifle","Shotgun","LMG"]}},"x_scale":{"type":"object","name":"LinearScale","id":"p1049"},"y_scale":{"type":"object","name":"CategoricalScale","id":"p1050"},"title":{"type":"object","name":"Title","id":"p1046"},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1067","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1036","attributes":{"selected":{"type":"object","name":"Selection","id":"p1037","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1038"},"data":{"type":"map","entries":[["weapon",{"type":"ndarray","array":["Assault Rifle","Submachine Gun","Sniper Rifle","Shotgun","LMG"],"shape":[5],"dtype":"object","order":"little"}],["url",["url_to_image1.png","url_to_image2.png","url_to_image3.png","url_to_image4.png","url_to_image5.png"]]]}}},"view":{"type":"object","name":"CDSView","id":"p1068","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1069"}}},"glyph":{"type":"object","name":"ImageURL","id":"p1064","attributes":{"url":{"type":"field","field":"url"},"x":{"type":"value","value":0},"y":{"type":"field","field":"weapon"},"w":{"type":"value","value":50},"h":{"type":"value","value":50}}},"nonselection_glyph":{"type":"object","name":"ImageURL","id":"p1065","attributes":{"url":{"type":"field","field":"url"},"x":{"type":"value","value":0},"y":{"type":"field","field":"weapon"},"w":{"type":"value","value":50},"h":{"type":"value","value":50},"global_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"ImageURL","id":"p1066","attributes":{"url":{"type":"field","field":"url"},"x":{"type":"value","value":0},"y":{"type":"field","field":"weapon"},"w":{"type":"value","value":50},"h":{"type":"value","value":50},"global_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1047"},"toolbar_location":null,"left":[{"type":"object","name":"CategoricalAxis","id":"p1056","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1057"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1058"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1059"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p1051","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1052","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1053"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1054"}}}],"center":[{"type":"object","name":"Grid","id":"p1055","attributes":{"axis":{"id":"p1051"}}},{"type":"object","name":"Grid","id":"p1060","attributes":{"dimension":1,"axis":{"id":"p1056"}}}]}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('p1073').textContent;
+              const render_items = [{"docid":"52632ac7-20e5-45d0-bef7-309cbb7415b4","roots":{"p1070":"c978af53-7bc0-4fff-a6f5-f06659fb5929"},"root_ids":["p1070"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
