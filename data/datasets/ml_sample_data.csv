@@ -1,0 +1,190 @@
+price,experience,categories,supermalter,Region_Name
+250,8-15 ans,"['Rédacteur web', 'Traducteur']",1,île-de-france
+400,15 ans et +,"['Développeur CMS', 'Développeur Web Front-end', 'Intégrateur Web', 'Directeur artistique', 'Graphiste', 'Webdesigner']",1,île-de-france
+260,8-15 ans,"['Concepteur Rédacteur', 'Pigiste', 'Rédacteur web']",1,île-de-france
+250,3-7 ans,"['Concepteur Rédacteur', 'Pigiste', 'Rédacteur web']",1,île-de-france
+260,3-7 ans,"['Monteur vidéo', 'Motion Designer']",0,île-de-france
+550,15 ans et +,"['Consultant Stratégie', 'Consultant Marketing', 'Conversion Rate Optimizer', 'Revenue Manager', 'Traffic Manager']",1,île-de-france
+400,3-7 ans,"['Consultant SEO', 'Traffic Manager']",1,île-de-france
+600,8-15 ans,"['Consultant analytics', 'Consultant SEO', 'Traffic Manager']",1,île-de-france
+500,3-7 ans,"['Brand manager', 'Directeur artistique', 'Graphiste', 'Illustrateur']",1,île-de-france
+550,8-15 ans,"['Graphiste', 'UI Designer', 'UX Designer', 'Webdesigner']",1,île-de-france
+600,15 ans et +,"['Administrateur Système et Réseaux', 'Architecte & Urbaniste SI', 'Expert en cyber sécurité']",1,île-de-france
+300,3-7 ans,"['Directeur artistique', 'Graphiste', 'Illustrateur']",1,île-de-france
+400,8-15 ans,"['Animation 3D', 'Motion Designer', 'Graphiste', 'Illustrateur']",1,île-de-france
+350,8-15 ans,"['Directeur artistique', 'Graphiste', 'Illustrateur', 'Webdesigner']",1,île-de-france
+220,8-15 ans,"['Community Manager', 'Concepteur Rédacteur', 'Consultant Communication', 'Consultant Relation Presse', 'Content manager', 'Pigiste', 'Planneur Stratégique', 'Rédacteur web', 'Social media manager', 'Traducteur']",1,île-de-france
+440,8-15 ans,['Réalisateur vidéo'],1,île-de-france
+200,8-15 ans,"['Concepteur Rédacteur', 'Pigiste', 'Rédacteur web', 'Consultant SEO']",0,île-de-france
+350,3-7 ans,"['Consultant Communication', 'Directeur artistique', 'Graphiste', 'UI Designer', 'UX Designer', 'Webdesigner']",1,normandie
+300,8-15 ans,"['Retoucheur', 'Graphiste']",1,île-de-france
+300,8-15 ans,"['Ingénieur du son', 'Sound Designer']",0,île-de-france
+280,8-15 ans,['Traducteur'],1,île-de-france
+320,15 ans et +,"['Directeur artistique', 'Graphiste', 'Illustrateur', 'UX Designer', 'Webdesigner']",1,île-de-france
+490,15 ans et +,['Traffic Manager'],1,île-de-france
+400,3-7 ans,"['Directeur artistique', 'Graphiste', 'Webdesigner']",1,île-de-france
+500,3-7 ans,['Retoucheur'],1,île-de-france
+450,8-15 ans,"['Directeur artistique', 'Graphiste', 'Webdesigner']",1,île-de-france
+300,8-15 ans,['Sound Designer'],0,île-de-france
+500,8-15 ans,"['Graphiste', 'UI Designer', 'UX Designer', 'Webdesigner']",1,île-de-france
+500,8-15 ans,"['Directeur artistique', 'Graphiste', 'Illustrateur', 'UI Designer', 'Webdesigner']",1,île-de-france
+430,3-7 ans,"['Directeur artistique', 'Graphiste', 'UI Designer', 'UX Designer', 'Webdesigner']",0,île-de-france
+380,3-7 ans,"['Directeur artistique', 'Graphiste', 'Illustrateur', 'Webdesigner']",1,île-de-france
+350,8-15 ans,"['Développeur CMS', 'Développeur Web Front-end', 'Intégrateur Web', 'Graphiste', 'UI Designer', 'UX Designer', 'Webdesigner']",1,île-de-france
+125,8-15 ans,['Traducteur'],0,île-de-france
+340,15 ans et +,"['Animation 3D', 'Monteur vidéo', 'Motion Designer', 'Directeur artistique', 'Graphiste', 'Illustrateur']",1,île-de-france
+350,8-15 ans,"['Motion Designer', 'Photographe', 'Retoucheur', 'Directeur artistique', 'Graphiste', 'Illustrateur', 'Webdesigner']",1,île-de-france
+400,8-15 ans,['Photographe'],1,île-de-france
+350,8-15 ans,"['Développeur Web Front-end', 'Graphiste', 'UI Designer', 'UX Designer', 'Webdesigner']",1,île-de-france
+125,8-15 ans,"['Community Manager', 'Concepteur Rédacteur', 'Consultant Communication', 'Content manager', 'Rédacteur web', 'Social media manager', 'Traducteur', 'Chargé de formation', 'Consultant RH et organisation']",1,île-de-france
+460,8-15 ans,['Photographe'],1,île-de-france
+400,8-15 ans,"['Développeur CMS', 'Développeur Web Back-end', 'Développeur Web Front-end']",0,île-de-france
+300,8-15 ans,"['Monteur vidéo', 'Motion Designer']",1,île-de-france
+550,8-15 ans,"['Développeur CMS', 'Développeur Web Back-end', 'Développeur Web Front-end', 'Intégrateur Web']",0,île-de-france
+375,3-7 ans,"['Directeur artistique', 'Graphiste', 'Illustrateur']",1,île-de-france
+450,8-15 ans,"['Développeur CMS', 'Développeur Web Front-end', 'Intégrateur Web']",1,île-de-france
+150,3-7 ans,"['Concepteur Rédacteur', 'Consultant Communication', 'Rédacteur web', 'Traducteur']",1,île-de-france
+250,8-15 ans,['Textile designer'],0,île-de-france
+720,8-15 ans,"['Développeur CMS', 'Développeur Web Back-end', 'Développeur Web Front-end']",0,île-de-france
+300,8-15 ans,"['Administrateur base de données', 'Administrateur Système et Réseaux', 'Développeur CMS', 'Développeur Web Front-end', 'Intégrateur Web']",1,île-de-france
+180,3-7 ans,"['Concepteur Rédacteur', 'Content manager', 'Rédacteur web', 'Traducteur']",1,île-de-france
+200,8-15 ans,"['Ingénieur du son', 'Sound Designer']",0,île-de-france
+450,8-15 ans,"['Consultant Communication', 'Consultant analytics', 'Consultant Marketing', 'Consultant marketing relationnel / CRM', 'Traffic Manager']",1,île-de-france
+500,8-15 ans,['Traffic Manager'],1,île-de-france
+300,8-15 ans,"['Retoucheur', 'Graphiste']",1,île-de-france
+385,8-15 ans,"['Développeur CMS', 'Développeur Web Back-end', 'Développeur Web Front-end']",1,île-de-france
+125,0-2 ans,"['Concepteur Rédacteur', 'Rédacteur web']",1,île-de-france
+490,15 ans et +,"['Consultant Marketing', 'Consultant SEO']",1,île-de-france
+280,3-7 ans,"['Monteur vidéo', 'Motion Designer', 'Graphiste']",1,île-de-france
+400,3-7 ans,"['Directeur artistique', 'Graphiste', 'UI Designer', 'UX Designer', 'Webdesigner']",1,île-de-france
+180,3-7 ans,[],0,île-de-france
+300,3-7 ans,"['Concepteur Rédacteur', 'Content manager', 'Pigiste', 'Rédacteur web', 'Traducteur', 'Juriste']",1,île-de-france
+250,3-7 ans,"['Graphiste', 'Illustrateur']",1,île-de-france
+280,8-15 ans,"['Concepteur Rédacteur', 'Content manager', 'Rédacteur web']",1,île-de-france
+335,3-7 ans,"['Retoucheur', 'Graphiste']",1,île-de-france
+630,8-15 ans,"['Concepteur Rédacteur', 'Consultant Communication', 'Traducteur']",1,île-de-france
+250,3-7 ans,"['Développeur CMS', 'Développeur Web Front-end', 'Intégrateur Web', 'Graphiste', 'Webdesigner']",1,île-de-france
+400,8-15 ans,"['Ingénieur du son', 'Sound Designer', 'Voix off']",0,île-de-france
+250,8-15 ans,"['Community Manager', 'Rédacteur web', 'Social media manager', 'Traducteur', 'Chef de projet digital']",0,île-de-france
+460,8-15 ans,"['Motion Designer', 'Graphiste', 'Illustrateur']",0,île-de-france
+500,8-15 ans,"['Directeur artistique', 'Graphiste', 'UI Designer', 'Webdesigner']",1,île-de-france
+350,15 ans et +,"['Motion Designer', 'Directeur artistique', 'Graphiste', 'Illustrateur']",1,île-de-france
+420,8-15 ans,"['Animation 3D', 'Monteur vidéo', 'Motion Designer', 'Réalisateur vidéo', 'Sound Designer', 'Voix off', 'Directeur artistique', 'Graphiste', 'Illustrateur', 'UX Designer', 'Webdesigner']",1,île-de-france
+300,15 ans et +,['Voix off'],1,île-de-france
+350,8-15 ans,"['Monteur vidéo', 'Motion Designer', 'Réalisateur vidéo']",1,île-de-france
+500,8-15 ans,"['Directeur artistique', 'Graphiste', 'UI Designer', 'Webdesigner']",1,île-de-france
+590,8-15 ans,"['Monteur vidéo', 'Motion Designer', 'Photographe', 'Réalisateur vidéo']",1,île-de-france
+350,3-7 ans,"['Brand manager', 'Community Manager', 'Concepteur Rédacteur', 'Consultant Communication', 'Content manager', 'Média Planneur', 'Planneur Stratégique', 'Rédacteur web', 'Responsable Partenariats', 'Social media manager', 'Directeur artistique', 'Graphiste']",1,île-de-france
+300,8-15 ans,"['Monteur vidéo', 'Motion Designer', 'Photographe', 'Réalisateur vidéo']",1,île-de-france
+350,8-15 ans,"['Graphiste', 'Illustrateur', 'Webdesigner']",1,île-de-france
+450,8-15 ans,"['Développeur Web Front-end', 'Directeur artistique', 'UI Designer', 'UX Designer', 'Webdesigner']",1,île-de-france
+250,8-15 ans,['Voix off'],1,île-de-france
+300,3-7 ans,"['Brand manager', 'Community Manager', 'Consultant Communication', 'Content manager', 'Planneur Stratégique', 'Social media manager']",1,île-de-france
+400,8-15 ans,"['Développeur Web Front-end', 'Webdesigner']",1,île-de-france
+450,8-15 ans,"['Monteur vidéo', 'Motion Designer', 'Directeur artistique', 'Graphiste', 'Illustrateur']",0,île-de-france
+700,8-15 ans,['Photographe'],1,île-de-france
+500,8-15 ans,"['Motion Designer', 'Directeur artistique', 'Illustrateur']",0,île-de-france
+150,8-15 ans,[],0,île-de-france
+400,8-15 ans,"['Motion Designer', 'Réalisateur vidéo', 'Graphiste']",1,île-de-france
+740,8-15 ans,"['Chef de projet digital', 'Product Manager']",1,île-de-france
+450,3-7 ans,"['Concepteur Rédacteur', 'Rédacteur web', 'Consultant Marketing']",0,île-de-france
+250,8-15 ans,"['Concepteur Rédacteur', 'Content manager', 'Pigiste', 'Rédacteur web', 'Traducteur', 'Voix off']",1,île-de-france
+500,8-15 ans,"['Graphiste', 'Illustrateur', 'UI Designer', 'Webdesigner']",1,île-de-france
+450,8-15 ans,"['Motion Designer', 'Réalisateur vidéo']",1,île-de-france
+350,8-15 ans,"['Animation 3D', 'Monteur vidéo', 'Motion Designer', 'Photographe', 'Réalisateur vidéo', 'Retoucheur', 'Sound Designer', 'Voix off', 'Directeur artistique', 'Graphiste', 'Illustrateur', 'UI Designer', 'UX Designer', 'Webdesigner']",1,île-de-france
+750,8-15 ans,"['Consultant Marketing', 'Consultant SEO', 'Traffic Manager']",1,île-de-france
+570,8-15 ans,['Développeur Web Front-end'],0,île-de-france
+700,8-15 ans,"['Développeur CMS', 'Développeur Web Back-end', 'Développeur Web Front-end']",1,île-de-france
+295,8-15 ans,"['Concepteur Rédacteur', 'Pigiste', 'Rédacteur web']",1,île-de-france
+650,3-7 ans,"['Consultant Stratégie', 'Consultant Marketing', 'E-merchandiser']",0,île-de-france
+570,8-15 ans,"['Directeur artistique', 'Graphiste', 'UI Designer', 'Webdesigner']",1,île-de-france
+990,8-15 ans,"['Business developers', 'Consultant Stratégie', 'Consultant Marketing', 'Consultant SEO']",0,île-de-france
+650,8-15 ans,"['Administrateur base de données', 'Cloud Engineer & Architect']",1,île-de-france
+250,8-15 ans,['Voix off'],1,île-de-france
+140,3-7 ans,['Traducteur'],0,île-de-france
+370,8-15 ans,"['Concepteur Rédacteur', 'Consultant Communication', 'Consultant Relation Presse', 'Content manager', 'Pigiste', 'Rédacteur web']",1,île-de-france
+800,8-15 ans,"['Business Analyst', 'Consultant Stratégie', 'Consultant analytics', 'Consultant Marketing', 'Consultant marketing relationnel / CRM', 'Conversion Rate Optimizer', 'Growth Hacker']",1,île-de-france
+500,8-15 ans,"['UI Designer', 'UX Designer']",1,île-de-france
+180,3-7 ans,"['Community Manager', 'Consultant Communication', 'Content manager', 'Social media manager', 'Monteur vidéo', 'Réalisateur vidéo']",1,île-de-france
+350,8-15 ans,"['Monteur vidéo', 'Réalisateur vidéo']",1,île-de-france
+350,8-15 ans,['Traducteur'],0,île-de-france
+380,8-15 ans,"['Motion Designer', 'UI Designer', 'UX Designer', 'Webdesigner']",1,île-de-france
+480,3-7 ans,"['Consultant RH et organisation', 'Contrôleur de gestion', 'Directeur Financier']",0,île-de-france
+195,3-7 ans,"['Consultant Marketing', 'Consultant SEO', 'Conversion Rate Optimizer', 'Growth Hacker', 'Traffic Manager', 'UI Designer', 'UX Designer', 'Webdesigner']",1,île-de-france
+420,8-15 ans,['Directeur artistique'],1,île-de-france
+160,8-15 ans,"['Concepteur Rédacteur', 'Rédacteur web', 'Traducteur']",0,île-de-france
+360,8-15 ans,['Graphiste'],1,île-de-france
+550,15 ans et +,"['Concepteur Rédacteur', 'Rédacteur web']",1,île-de-france
+300,3-7 ans,"['Concepteur Rédacteur', 'Content manager', 'Rédacteur web']",1,île-de-france
+500,8-15 ans,"['Motion Designer', 'Directeur artistique', 'Graphiste', 'Illustrateur']",1,île-de-france
+225,3-7 ans,"['Concepteur Rédacteur', 'Rédacteur web', 'Traducteur', 'Consultant Marketing', 'Consultant marketing relationnel / CRM', 'Consultant SEO']",1,île-de-france
+500,3-7 ans,"['Photographe', 'Retoucheur']",0,île-de-france
+350,3-7 ans,"['Monteur vidéo', 'Motion Designer']",1,île-de-france
+300,8-15 ans,"['Directeur artistique', 'Graphiste']",1,île-de-france
+1012,15 ans et +,['Business developers'],1,île-de-france
+580,3-7 ans,"['Directeur artistique', 'Graphiste']",1,île-de-france
+290,8-15 ans,"['Consultant analytics', 'Consultant Marketing', 'Consultant marketing relationnel / CRM', 'Consultant SEO', 'Conversion Rate Optimizer', 'E-merchandiser', 'Growth Hacker', 'Traffic Manager', 'UI Designer', 'UX Designer', 'Webdesigner']",0,île-de-france
+450,8-15 ans,"['Directeur artistique', 'Graphiste', 'Illustrateur']",0,île-de-france
+420,8-15 ans,"['Consultant analytics', 'Consultant Marketing', 'Consultant SEO', 'Growth Hacker', 'Traffic Manager', 'Développeur CMS', 'Développeur Web Back-end', 'Développeur Web Front-end', 'Intégrateur Web']",1,île-de-france
+500,3-7 ans,"['Data Analyst', 'Data Engineer', 'Data Scientist']",1,île-de-france
+650,3-7 ans,"['Développeur Web Back-end', 'Développeur Web Front-end']",1,île-de-france
+650,8-15 ans,"['Conversion Rate Optimizer', 'UX Designer']",1,île-de-france
+550,8-15 ans,"['Monteur vidéo', 'Photographe', 'Réalisateur vidéo']",1,île-de-france
+500,3-7 ans,"['Développeur Web Back-end', 'Développeur Web Front-end']",0,île-de-france
+450,8-15 ans,"['Animation 3D', 'Monteur vidéo', 'Motion Designer', 'Réalisateur vidéo', 'Retoucheur', 'Sound Designer', 'Voix off', 'Directeur artistique', 'Graphiste', 'Illustrateur']",1,île-de-france
+700,3-7 ans,"['Data Analyst', 'Data Engineer', 'Data Scientist']",1,île-de-france
+650,3-7 ans,['Photographe'],1,île-de-france
+450,8-15 ans,"['Motion Designer', 'Réalisateur vidéo', 'Directeur artistique', 'Illustrateur']",1,île-de-france
+400,3-7 ans,['Photographe'],1,île-de-france
+200,3-7 ans,"['Traducteur', 'Voix off']",1,île-de-france
+427,3-7 ans,['Développeur Web Front-end'],0,île-de-france
+370,3-7 ans,"['Monteur vidéo', 'Motion Designer', 'Graphiste']",1,île-de-france
+340,8-15 ans,"['Community Manager', 'Consultant Communication', 'Content manager', 'Social media manager', 'Consultant analytics', 'Consultant Marketing', 'Traffic Manager']",1,île-de-france
+250,8-15 ans,"['Rédacteur web', 'Traducteur']",0,île-de-france
+475,8-15 ans,"['Développeur Web Back-end', 'Développeur Web Front-end']",1,île-de-france
+349,3-7 ans,"['Motion Designer', 'Directeur artistique', 'Graphiste']",1,île-de-france
+450,8-15 ans,"['Développeur CMS', 'Développeur Web Front-end', 'Intégrateur Web', 'Graphiste', 'UI Designer', 'Webdesigner']",1,île-de-france
+750,15 ans et +,"['Brand manager', 'Chef de projet Evènementiel', 'Concepteur Rédacteur', 'Consultant Communication', 'Consultant Relation Presse', 'Content manager', 'Pigiste', 'Planneur Stratégique', 'Rédacteur web', 'Responsable Partenariats', 'Traducteur']",1,île-de-france
+800,15 ans et +,"['Développeur CMS', 'Développeur Web Back-end', 'Développeur Web Front-end']",1,île-de-france
+250,3-7 ans,['Consultant analytics'],0,île-de-france
+500,8-15 ans,"['Développeur CMS', 'Développeur Web Back-end', 'Développeur Web Front-end', 'DevOps', 'Intégrateur Web']",0,île-de-france
+350,3-7 ans,['Réalisateur vidéo'],0,île-de-france
+500,15 ans et +,"['Directeur artistique', 'Graphiste', 'Webdesigner']",1,île-de-france
+350,3-7 ans,"['Photographe', 'Retoucheur']",1,île-de-france
+450,8-15 ans,"['Animation 3D', 'Ingénieur du son', 'Monteur vidéo', 'Motion Designer', 'Photographe', 'Réalisateur vidéo', 'Retoucheur', 'Sound Designer', 'Voix off']",1,île-de-france
+750,8-15 ans,"['UI Designer', 'UX Designer', 'Webdesigner']",1,île-de-france
+550,8-15 ans,"['UI Designer', 'UX Designer']",1,île-de-france
+620,15 ans et +,"['Ingénieur en Electronique', 'Ingénieur Hardware', 'Développeur iOT', 'Développeur systèmes embarqués']",1,île-de-france
+200,0-2 ans,"['Concepteur Rédacteur', 'Rédacteur web']",1,île-de-france
+200,3-7 ans,['Modelisation 3D'],0,île-de-france
+250,15 ans et +,"['Retoucheur', 'Graphiste', 'Illustrateur']",1,île-de-france
+400,3-7 ans,"['Consultant analytics', 'Consultant SEO', 'Growth Hacker', 'Traffic Manager', 'Développeur CMS', 'Intégrateur Web']",1,île-de-france
+500,8-15 ans,"['Directeur artistique', 'Graphiste', 'UI Designer', 'UX Designer', 'Webdesigner']",1,île-de-france
+590,8-15 ans,"['Consultant Stratégie', 'Consultant analytics', 'Consultant Marketing', 'Growth Hacker', 'Traffic Manager']",1,île-de-france
+400,3-7 ans,"['Consultant Stratégie', 'Consultant Marketing', 'Traffic Manager']",1,île-de-france
+150,8-15 ans,['Rédacteur web'],0,île-de-france
+300,3-7 ans,"['Monteur vidéo', 'Photographe', 'Réalisateur vidéo']",1,île-de-france
+400,8-15 ans,"['Directeur artistique', 'Graphiste']",1,île-de-france
+500,8-15 ans,['Graphiste'],1,île-de-france
+400,8-15 ans,"['Monteur vidéo', 'Motion Designer', 'Retoucheur', 'Graphiste', 'UX Designer', 'Webdesigner']",0,île-de-france
+500,3-7 ans,"['Développeur Web Front-end', 'Directeur artistique', 'Graphiste', 'UI Designer', 'Webdesigner']",1,île-de-france
+550,3-7 ans,"['Consultant Stratégie', 'Consultant Marketing', 'Traffic Manager']",1,île-de-france
+600,8-15 ans,['Photographe'],1,île-de-france
+450,3-7 ans,"['Brand manager', 'Concepteur Rédacteur', 'Content manager', 'Pigiste', 'Planneur Stratégique', 'Rédacteur web', 'Traducteur']",1,île-de-france
+500,8-15 ans,"['Textile designer', 'Graphiste', 'Illustrateur']",0,île-de-france
+210,3-7 ans,"['Concepteur Rédacteur', 'Traducteur', 'Voix off']",1,île-de-france
+490,3-7 ans,"['Développeur Web Back-end', 'Développeur Web Front-end']",1,île-de-france
+700,15 ans et +,"['Directeur artistique', 'Graphiste', 'Webdesigner']",1,île-de-france
+400,3-7 ans,"['Développeur CMS', 'Développeur Web Back-end', 'Développeur Web Front-end', 'Intégrateur Web']",0,île-de-france
+600,3-7 ans,['Traffic Manager'],1,île-de-france
+200,3-7 ans,['Traducteur'],0,île-de-france
+550,8-15 ans,"['Comptable', 'Contrôleur de gestion', 'Directeur Financier']",1,île-de-france
+350,3-7 ans,"['Directeur artistique', 'Graphiste', 'Illustrateur', 'Webdesigner']",1,île-de-france
+500,8-15 ans,"['Monteur vidéo', 'Motion Designer']",0,île-de-france
+200,3-7 ans,['Traducteur'],0,île-de-france
+500,8-15 ans,"['Consultant analytics', 'Consultant Marketing', 'Consultant SEO', 'Traffic Manager']",1,île-de-france
+450,15 ans et +,"['Directeur artistique', 'Graphiste', 'Illustrateur']",1,île-de-france
+200,8-15 ans,['Voix off'],1,île-de-france
+350,3-7 ans,"['Développeur CMS', 'Développeur Web Front-end', 'Webdesigner']",0,île-de-france
+400,8-15 ans,"['Monteur vidéo', 'Photographe', 'Réalisateur vidéo', 'Voix off']",1,île-de-france
+550,8-15 ans,"['Motion Designer', 'Réalisateur vidéo', 'Voix off']",1,île-de-france
