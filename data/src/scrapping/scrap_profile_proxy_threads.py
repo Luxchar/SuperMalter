@@ -182,9 +182,9 @@ def configure_webdriver(proxy_address):
     options.add_argument("--disable-dev-shm-usage")
 
     # create the ChromeDriver instance with custom options
-    # driver = webdriver.Remote("http://192.168.0.250:4444/wd/hub", options=options)
-    driver = webdriver.Remote("http://192.168.0.250:4444/wd/hub", options=options)
-    
+    # driver = webdriver.Remote("http://192.168.0.250:4444/wd/hub", options=options) # for docker
+    driver = webdriver.Chrome(options=options) # for local
+        
     return driver
  
 def scrap_all_users_proxy(proxy_addresses, df):
