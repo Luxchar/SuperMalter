@@ -24,7 +24,7 @@ def get_next_profile(df):
     return df, next_profile
 
 
-df_raw = pd.DataFrame(columns=['name', 'headline', 'price', 'response_rate', 'response_time', 'categories', 'competences', 'supermalter', 'location','presentation', 'recommendations', 'teletravail_preference', 'profil', 'link', 'creation_date'])
+df_raw = pd.DataFrame(columns=['name', 'headline', 'price', 'response_rate', 'response_time', 'categories', 'competences', 'supermalter', 'location','presentation', 'recommendations', 'missions', 'teletravail_preference', 'profil', 'link', 'creation_date'])
 
 index_scrap = 0
 index = 0
