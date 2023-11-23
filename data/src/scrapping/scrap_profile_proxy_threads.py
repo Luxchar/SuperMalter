@@ -15,10 +15,15 @@ proxy_pool = [
     'proxy1:port',
 ]
 
-# function that gets a df and gives the next profile to scrap, when its scrapped it updates the df
 def get_next_profile(df):
-    # get the first profile that is not scrapped
-    next_profile = df[df['scraped']==False].iloc[0]
+    """
+    get the next profile to scrap
+    
+    Parameters:
+    df (pd.DataFrame): the dataframe with the profiles to scrap
+    """
+    
+    next_profile = df[df['scraped']==False].iloc[0] # get the next profile to scrap
     # update the df
     df.loc[df['profil']==next_profile['profil'], 'scraped'] = True
     return df, next_profile
@@ -26,12 +31,19 @@ def get_next_profile(df):
 
 df_raw = pd.DataFrame(columns=['name', 'headline', 'price', 'response_rate', 'response_time', 'categories', 'competences', 'supermalter', 'location','presentation', 'recommendations', 'missions', 'teletravail_preference', 'profil', 'link', 'creation_date'])
 
-index_scrap = 0
 index = 0
 def add_to_df(data): # save the data in a global df
-    global df_raw, index_scrap, index
+    """
+    Add the user data to the global DataFrame df_raw and save it to a CSV file every 1000 users.
     
-    # Create a DataFrame with the current user's data
+    Parameters
+    ----------
+    data : dict
+        A dictionary containing the user data.
+    """
+    
+    global df_raw, index_scrap
+    
     user_df = pd.DataFrame([data])  # Convert the user data to a DataFrame
     
     # Check if the user DataFrame has the same columns as df_raw
@@ -43,14 +55,24 @@ def add_to_df(data): # save the data in a global df
     df_raw = pd.concat([df_raw, user_df], ignore_index=True)
     
     time = pd.Timestamp.now() # get the current time
-    print(f'Scraped {index_scrap} users, at {time} last one is: {data}')
-    index_scrap += 1
+    print(f'Scraped {index} users, at {time} last one is: {data}')
     
     # Save the DataFrame to a CSV file every 1000 users
-    if index % 1000 == 0:
-        df_raw.to_csv('df_tmp_backups/df_raw.csv', index=False)
+    if index_scrap % 1000 == 0:
+        df_raw.to_csv('scraped_data_final.csv', index=False)
 
 def scrap_user(row, driver):
+    """ 
+    Scrap the user data from the given row and add it to the global DataFrame df_raw.
+    
+    Parameters
+    ----------
+    row : pandas.Series
+        A row from the DataFrame df.
+    driver : selenium.webdriver.chrome.webdriver.WebDriver
+        The Selenium driver used to scrap the user data.
+    """
+    
     try:
         wait = WebDriverWait(driver, 10)
         driver.get(row['link'])
@@ -108,11 +130,10 @@ def scrap_user(row, driver):
     categories_elements = soup.find_all('li', {'class': 'categories__list-item'})
     categories = [category.find('a').text for category in categories_elements]
     data['categories'] = categories
-
+    
     # Récupérer les compétences
-    competences_element = soup.find_all('div', {'class': 'profile-expertises-content-list__item__label'})
+    competences_element = soup.find_all('div', {'class': 'profile-expertises__content-list-item__label'})
     competences = [competence.find('a', class_='joy-link joy-link_teal').text.strip() for competence in competences_element]
-
     data['competences'] = competences
     
     # Récupérer le statut "Supermalter"
@@ -166,14 +187,23 @@ def scrap_user(row, driver):
 
     add_to_df(data) # add the data to the global df
 
-import threading
+iimport threading
 
 def configure_webdriver(proxy_address):
+    """
+    Configure the Selenium driver with the given proxy address.
+    
+    Parameters
+    ----------
+    proxy_address : str
+        The proxy address to use for the Selenium driver.
+    """
+    
     # define custom options for the Selenium driver
     options = Options()
 
     options.add_argument(f'--proxy-server={proxy_address}')
-    options.add_argument("window-size=400,200")
+    options.add_argument("window-size=800,400")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-gpu")
     options.add_argument("start-maximized")
@@ -184,11 +214,22 @@ def configure_webdriver(proxy_address):
     # create the ChromeDriver instance with custom options
     # driver = webdriver.Remote("http://192.168.0.250:4444/wd/hub", options=options) # for docker
     driver = webdriver.Chrome(options=options) # for local
-        
+    
     return driver
  
 def scrap_all_users_proxy(proxy_addresses, df):
-    global index
+    """
+    Scrap all the users from the given DataFrame df using the given proxy addresses.
+    
+    Parameters
+    ----------
+    proxy_addresses : list
+        A list of proxy addresses to use for the Selenium driver.
+    df : pandas.DataFrame
+        A DataFrame containing the users to scrap.
+    """
+    
+    global index # To keep track of the progress
     
     while df[df['scraped'] == False].shape[0] > 0:  # While there are profiles to scrap
         threads = []  # Store threads to manage them
@@ -199,14 +240,14 @@ def scrap_all_users_proxy(proxy_addresses, df):
         for proxy_address in proxy_addresses:
             driver = configure_webdriver(proxy_address)
             df, row = get_next_profile(df)
-            
-            print(f'Trying to scrap profile {index} advancement: {round(index/df.shape[0]*100, 2)}%')
-            index+=1
 
             # Create a thread for each scraping task
             thread = threading.Thread(target=scrap_user, args=(row, driver))
             threads.append(thread)
             thread.start()  # Start the thread
+                        
+            print(f'Trying to scrap profile {index} advancement: {round(index/df.shape[0]*100, 2)}%')
+            index+=1
         
         # Wait for all threads to complete before proceeding
         for thread in threads:
@@ -220,9 +261,6 @@ if __name__ == '__main__':
     profile_links['link'] = profile_links['profil'].apply(lambda x: f'https://www.malt.fr/profile/{x}')
 
     profile_links['scraped'] = False # add column scraped to the DataFrame
-
-    # get first 10 rows of the DataFrame
-    # df = profile_links.iloc[:100]
 
     df = profile_links
 
