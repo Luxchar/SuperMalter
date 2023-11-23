@@ -187,7 +187,7 @@ def scrap_user(row, driver):
 
     add_to_df(data) # add the data to the global df
 
-iimport threading
+import threading
 
 def configure_webdriver(proxy_address):
     """
