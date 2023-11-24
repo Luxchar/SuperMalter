@@ -29,7 +29,7 @@ def get_next_profile(df):
     return df, next_profile
 
 
-df_raw = pd.DataFrame(columns=['name', 'profile_image' 'headline', 'experience', 'price', 'response_rate', 'response_time', 'categories', 'competences', 'supermalter', 'location','presentation', 'recommendations', 'missions', 'teletravail_preference', 'profil', 'link', 'creation_date'])
+df_raw = pd.DataFrame(columns=['name', 'profile_image', 'headline', 'experience', 'price', 'response_rate', 'response_time', 'categories', 'competences', 'supermalter', 'location','presentation', 'recommendations', 'missions', 'teletravail_preference', 'profil', 'link', 'creation_date'])
 
 index = 0
 def add_to_df(data): # save the data in a global df
