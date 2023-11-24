@@ -29,7 +29,7 @@ def get_next_profile(df):
     return df, next_profile
 
 
-df_raw = pd.DataFrame(columns=['name', 'headline', 'experience', 'price', 'response_rate', 'response_time', 'categories', 'competences', 'supermalter', 'location','presentation', 'recommendations', 'missions', 'teletravail_preference', 'profil', 'link', 'creation_date'])
+df_raw = pd.DataFrame(columns=['name', 'profile_image' 'headline', 'experience', 'price', 'response_rate', 'response_time', 'categories', 'competences', 'supermalter', 'location','presentation', 'recommendations', 'missions', 'teletravail_preference', 'profil', 'link', 'creation_date'])
 
 index = 0
 def add_to_df(data): # save the data in a global df
@@ -84,6 +84,14 @@ def scrap_user(row, driver):
         return None
 
     data = {}
+    
+    # get link of profile image
+    profile_image_element = soup.find('div', class_='joy-avatar joy-avatar__large joy-avatar__secondary')
+    if profile_image_element:
+        profile_image = profile_image_element.find('img')['src']
+        data['profile_image'] = profile_image
+    else:
+        data['profile_image'] = 'No profile image'
 
     price_element = soup.find('div', {'data-testid': 'profile-price'})
     if price_element:
