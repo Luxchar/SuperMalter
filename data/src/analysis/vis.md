@@ -9,7 +9,7 @@
 ### Malt quick presentation
  - number of freelancers through time (timeseries)
  - number of supermalter in comparison to malter (barplot) > deduce the percentage of supermalter
- - number of missions through time (timeseries) > how many opportunities are there for freelancers
+ - ..
 
 ### Malter vs Supermalter
  - number of freelancers (scatterplot) malter(blue) vs supermalter(red)
@@ -22,6 +22,7 @@
 
 # CR: Compte Rendu
 ### KPI's: Key factors of success
+ - Malt in 5 key figures: number of freelancers, number of missions, number of supermalter, number of countries, ..
  - top 5 best paid categories and the skills that are the most present in those categories
  - does the number of recommendations impact success (salary and number of missions) ?
  - does working remotely impact success and if so where is the best place to work?
