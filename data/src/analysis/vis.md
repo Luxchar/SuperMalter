@@ -9,13 +9,11 @@
 ### Malt quick presentation
  - number of freelancers through time (timeseries)
  - number of supermalter in comparison to malter (barplot) > deduce the percentage of supermalter
- - ..
+ - who gets the most opportunities/missions: malter vs supermalter introd
 
 ### Malter vs Supermalter
- - number of freelancers (scatterplot) malter(blue) vs supermalter(red)
- - who gets the most opportunities: malter vs supermalter
- - categories that get the best salary > is there a best category to be in (salary, length of mission?)
  - how much experience impacts success
+ - categories that get the best salary > is there a best category to be in (salary, length of mission?)
  - how does working remote impact the success of a freelancer
 
 <br>
