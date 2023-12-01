@@ -15,6 +15,8 @@
  - how much experience impacts success
  - categories that get the best salary > is there a best category to be in (salary, length of mission?)
  - how does working remote impact the success of a freelancer
+ - what's the impact of recommendations
+ - is there a best place to work (country, city, ..)
 
 <br>
 
