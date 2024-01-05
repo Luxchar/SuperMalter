@@ -26,8 +26,9 @@ To use this project you can clone this repository and run the following commands
 # Install the dependencies
 pip install -r requirements.txt
 
-# Run the script
-python main.py
+# Get the data from the Malt website (ask us for the data)
+
+# You can then run the different notebooks to analyse and scrap the data under the src folder
 ```
 
 ## Contributing
