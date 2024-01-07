@@ -1,0 +1,8 @@
+selenium
+beautifulsoup4
+pandas
+seaborn
+matplotlib
+plotly
+requests
+asyncio
